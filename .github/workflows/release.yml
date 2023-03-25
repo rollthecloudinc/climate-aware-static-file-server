@@ -2,7 +2,7 @@ name: Release to GHCR
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [master]
     paths:
       - "**"
       - "src/**"

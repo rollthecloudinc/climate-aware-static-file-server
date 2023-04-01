@@ -5,7 +5,7 @@ use core::slice;
 use object::{File, Object, ObjectSection};
 use wasmtime::*;
 use wasmcloud_actor_core::{CapabilityProvider, HealthCheckResponse, MessageBus};
-use wasmcloud_actor_http_server::{HttpRequest, HttpResponse, HttpServer};
+use wasmcloud_actor_http_server_interface::{HttpRequest, HttpResponse, HttpServer};
 use wasmtime_wasi::{Wasi, WasiCtxBuilder};
 
 #[macro_use]
